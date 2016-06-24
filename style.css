@@ -1,0 +1,29 @@
+.background {
+    background-image: url("http://www.hashtagintuition.com/wp-content/uploads/2016/02/unicorn1.jpg");
+    background-size: 1600px 800px;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.header {
+    color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.buttons {
+    margin-left: 400px;
+
+}
+
+.attack-buttons {
+    background-color: deeppink;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
