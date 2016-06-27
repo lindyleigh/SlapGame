@@ -18,17 +18,18 @@
     <section class="container">
         <div class="row buttons"
             <div class="col-md-4">
-                <button class="attack-buttons" type="button" onclick='play'("kick")>Kick</button>
-                <button class="attack-buttons" type="button" onclick='play'("hornjab")>Horn Jab</button>
-                <button class="attack-buttons" type="button" onclick='play'("breathfire")>Breath Fire</button>
+                <button class="attack-buttons" type="button" onclick="damageWizard(1, 'Kick')">Kick</button>
+                <button class="attack-buttons" type="button" onclick="damageWizard(10, 'Hornjab')">Horn Jab</button>
+                <button class="attack-buttons" type="button" onclick="damageWizard(20, 'BreathFire')">Breath Fire</button>
             </div>
         </div>
     </section>
 
     <section class="container">
     <div class="row health-status">
-        <div class="col-md-6"
-            <h3 id="health">100</h3>
+        <div class="col-md-6">
+            <h3 id="health">Evil Wizard Health: 100</h3>
+        </div>
         <div class="col-md-6">
             <h3 id="comment">You kicked the Evil Wizard!</h3>
         </div>
